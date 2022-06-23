@@ -284,7 +284,7 @@ class MyJframe extends JFrame{
                 }
             });
         }else if ("初级".equals(frameName)){
-            //this.setVisible(false);//这里的this指的是……啥我也不太清楚
+            //this.setVisible(false);
             new MyJframe(10,10,10).setTitle(frameName);
         }else if ("中级".equals(frameName)){
             new MyJframe(25,15,15).setTitle(frameName);
